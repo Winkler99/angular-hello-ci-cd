@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   title = 'hello-ci-cd';
 
   domain: string = '';
-  editor: string ='Wilmer Winkler'
+  editor: string ='Wilmer'
 
   ngOnInit() {
     const parsedUrl = new URL(window.location.href);
